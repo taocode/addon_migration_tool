@@ -6,7 +6,7 @@ use Symfony\Component\HttpFoundation\Request;
 use PortlandLabs\Concrete5\MigrationTool\Entity\Export\ExportItem;
 use PortlandLabs\Concrete5\MigrationTool\Entity\Export\ObjectCollection;
 use PortlandLabs\Concrete5\MigrationTool\Entity\Export\StandardExportItem;
-use Concrete\Core\Export\Item\Site as SiteExporter;
+use Concrete\Core\Support\Facade\Site as SiteExporter;
 
 class Site extends AbstractType
 {
